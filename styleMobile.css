@@ -56,7 +56,34 @@ body{
     padding: 10px; 
     margin-left: 35px;
 }
-
+.btn-1{
+    overflow: hidden;
+    border:3px solid var(--Grey);
+    color: white;
+   
+}
+.btn-1::before{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    color: black;
+    width: 296px;
+    height: 40px;
+    background-color: var(--Green);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    transform: translateX(-4%);
+    margin-top: -13px;
+}
+.btn-1:hover::before{
+    content: "GitHub";
+    z-index: 1;
+    color: black;
+    text-decoration: var(--DarkGrey);
+    top: 333px;
+    border-radius: 10px;
+}
 img{
     margin-left: 100px;
     width: 27%;

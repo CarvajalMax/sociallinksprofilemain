@@ -1,0 +1,214 @@
+
+:root{
+    /*## Colors*/
+    
+    /* ### Primary */
+    --Green: hsl(75, 94%, 57%);
+    --Viloted: hsl(315, 94%, 57%);
+    /* ### Neutral */
+    
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 21%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+    --Family: [Inter](https://fonts.google.com/specimen/Inter);
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color:var(--OffBlack)
+    
+}
+
+.caja{
+    display: flex;
+    background-color: var(--DarkGrey);
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-left: 45px;
+    width: 150px; 
+}
+.btn{
+    color: white;
+    text-decoration:none;
+    margin: 0%;
+    border: var(--Grey);
+    background-color: var(--Grey);
+    width: 270px;
+    height: 15px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px; 
+    margin-left: 35px;
+}
+.btn-1{
+    overflow: hidden;
+    border:3px solid var(--Grey);
+    color: white;
+   
+}
+.btn-1::before{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    content: "";
+    color: black;
+    width: 296px;
+    height: 40px;
+    background-color: var(--Viloted);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    transform: translateX(-4%);
+    margin-top: -13px;
+}
+.btn-1:hover::before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "GitHub";
+    z-index: 1;
+    color: black;
+    text-decoration: var(--DarkGrey);
+    border-radius: 10px;
+}
+
+.btn-2::before{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    content: "";
+    color: black;
+    width: 296px;
+    height: 40px;
+    background-color: var(--Viloted);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    transform: translateX(-4%);
+    margin-top: -13px;
+}
+.btn-2:hover::before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "Frontend Mentor";
+    z-index: 1;
+    color: black;
+    text-decoration: var(--DarkGrey);
+    border-radius: 10px;
+}
+
+.btn-3::before{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    content: "";
+    color: black;
+    width: 296px;
+    height: 40px;
+    background-color: var(--Viloted);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    transform: translateX(-4%);
+    margin-top: -13px;
+}
+.btn-3:hover::before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "LinkedIn";
+    z-index: 1;
+    color: black;
+    text-decoration: var(--DarkGrey);
+    border-radius: 10px;
+}
+
+.btn-4::before{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    content: "";
+    color: black;
+    width: 296px;
+    height: 40px;
+    background-color: var(--Viloted);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    transform: translateX(-4%);
+    margin-top: -13px;
+}
+.btn-4:hover::before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "Twitter";
+    z-index: 1;
+    color: black;
+    text-decoration: var(--DarkGrey);
+    border-radius: 10px;
+}
+
+.btn-5::before{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    content: "";
+    color: black;
+    width: 296px;
+    height: 40px;
+    background-color: var(--Viloted);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    transform: translateX(-4%);
+    margin-top: -13px;
+}
+.btn-5:hover::before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "Instagram";
+    z-index: 1;
+    color: black;
+    text-decoration: var(--DarkGrey);
+    border-radius: 10px;
+}
+img{
+    margin-left: 100px;
+    width: 27%;
+    border-radius: 50%;
+}
+.text{
+    text-align: center;
+    padding-top: 0px;
+}
+.jun{
+    font-size:13px;
+    padding-top: 0px;
+    margin: 0px;
+    color: var(--Green);
+}
+.nombre{
+    font-size: 25px;
+    color: var(--White);
+}
+.texto{
+    padding: 20px;
+    font-size: 15px;
+    color: var(--White);
+    margin: 0px;
+}
+
