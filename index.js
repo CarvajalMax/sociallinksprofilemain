@@ -62,7 +62,7 @@ const trabajoWeb =()=> {
   return Contenedor
 }
 
-const Nodo=document.querySelector('#caja')
+const Nodo=document.querySelector('#Card')
 const Card=document.querySelector('#BotonAñadido')
 
 const AddTarea =()=>{
